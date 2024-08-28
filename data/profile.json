@@ -40,17 +40,17 @@
   ],
   "portfolio": [
     {
-      "nome": "Pokedex JavaScript",
+      "name": "Pokedex JavaScript",
       "gitHub": "https://github.com/damilhome/pokedex-javascript",
       "git": true
     },
     {
-      "nome": "Coffee Shop — HTML e CSS",
+      "name": "Coffee Shop — HTML e CSS",
       "gitHub": "https://github.com/damilhome/coffee-shop-formacao-css-dio",
       "git": true
     },
     {
-      "nome": "Clone Discord",
+      "name": "Clone Discord",
       "gitHub": "https://github.com/damilhome/trilha-css-desafio-4",
       "git": true
     }
