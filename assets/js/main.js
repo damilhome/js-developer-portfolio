@@ -1,6 +1,5 @@
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
-    console.log('Foto carregada: ' + profileData.photo)
     photo.src = profileData.photo
     photo.alt = profileData.name
 
@@ -24,5 +23,6 @@ function updateProfileInfo(profileData) {
 
 document.addEventListener('DOMContentLoaded', async () => {
     const profileData = await fetchProfileData();
+    console.log(profileData)
     updateProfileInfo(profileData);
 })
